@@ -1,0 +1,8 @@
+server:
+  port: 8090
+keycloak:
+  realm: testRealm
+  resource: admin-spring-boot
+  auth-server-url: http://localhost:8080/auth
+  credentials:
+    secret: 02939080-84fe-4461-80bc-9652afd0c4d5
